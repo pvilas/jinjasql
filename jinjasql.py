@@ -6,12 +6,7 @@ from jinja2.lexer import Token
 # from jinja2.utils import Markup
 from markupsafe import Markup
 from collections.abc import Iterable
-
-try:
-    from collections import OrderedDict
-except ImportError:
-    # For Python 2.6 and less
-    from ordereddict import OrderedDict
+from collections import OrderedDict
 
 from threading import local
 from random import Random
