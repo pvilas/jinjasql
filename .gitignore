@@ -1,7 +1,0 @@
-.project
-.pydevproject
-*.pyc
-build/
-dist/
-jinjasql.egg-info/
-venv
