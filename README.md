@@ -2,6 +2,10 @@
 
 The original [jinjasql](https://github.com/sripathikrishnan/jinjasql) is no longer maintaned. I have made some changes to make it compatible with jinja2 v3.
 
+> If you wish to use python f-string with jinja parameters you can use the double-curl syntax to escape, i.e. `s=f"This is a {python_f_string_rendered_parameter} and this is a {{{{jinja_rendered_parameter}}}}"`
+
+Original documentation follows.
+
 JinjaSQL is a template language for SQL statements and scripts. 
 Since it's based in [Jinja2](http://jinja.pocoo.org/), 
 you have all the power it offers - conditional statements, macros,
